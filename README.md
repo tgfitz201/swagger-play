@@ -18,7 +18,14 @@ Scala Versions | Play Version | Swagger Version | swagger-play version
 2.9.1, 2.10.4  | 2.1.x        | 1.2             | 1.3.5
 2.9.1, 2.10.4  | 2.2.x        | 1.2             | 1.3.7
 2.10.4, 2.11.1 | 2.3.x        | 1.2             | 1.3.12
-2.11.6, 2.11.7 | 2.4.x        | 1.2             | 1.3.13
+2.11.6, 2.11.7 | 2.4.x        | 2.0             | 1.5.0-SNAPSHOT
+
+Other Swagger-Play integrations
+-------
+This Swagger-Play integration allows you to use [Swagger annotations](https://github.com/swagger-api/swagger-core/wiki/Annotations-1.5.X) on your Play actions to generate a Swagger spec at runtime. The libraries below take different approaches to creating an integration.
+
+* [iheartradio/play-swagger](https://github.com/iheartradio/play-swagger) - Write a Swagger spec in your routes file
+* [zalando/play-swagger](https://github.com/zalando/play-swagger) - Generate Play code from a Swagger spec
 
 
 License
